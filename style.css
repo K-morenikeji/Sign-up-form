@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    justify-items: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .intro {
@@ -69,14 +70,14 @@ ul{
     width: 40px;
 }
 
-/*@media screen and (max-width: 375px;) {
-    .container{
-        height: fit-content;
+@media screen and (max-width: 375px;) {
+    body{
+        justify-items: center;
     }
-    input{
-    width: 250px;
+    /*input{
+    width: 250px;*/
 }
-.form .button{
+/*.form .button{
     background-color: rgb(172, 206, 248);
     font-size: 15px;
     color: white;
