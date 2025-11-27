@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    /*justify-items: center;*/
+    justify-items: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    justify-content: center;
 }
 .intro {
     justify-items: center;
