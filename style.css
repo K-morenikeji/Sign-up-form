@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    justify-items: center;
+    /*justify-items: center;*/
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .intro {
@@ -40,14 +40,15 @@ input{
     margin-top: 20px;
 }
 .button:hover{
-    color: rgb(60, 60, 206);
+    background-color: rgb(60, 60, 206);
 }
 hr{
     color: black;
     width: 65px;
     margin: 10px;
 }
-p{
+.alt{
+    font-size: 15px;
     margin-left: 2px;
     margin-right: 2px;
 }
@@ -61,6 +62,7 @@ ul{
     display: flex;
     list-style-type: none;
     justify-content: center;
+    padding: 5px 0;
 }
 .soc img{
     width: 45px;
@@ -74,32 +76,24 @@ ul{
     body{
         justify-items: center;
     }
-    /*input{
-    width: 250px;*/
+    input{
+    width: 150px;
 }
-/*.form .button{
-    background-color: rgb(172, 206, 248);
-    font-size: 15px;
-    color: white;
-    border: none;
-    padding: 10px 100px;
-    margin-top: 20px;
-}
-.button:hover{
-    color: blue;
-}
-hr{
-    width: 65px;
-    margin: 10px;
-}
-p{
-    margin-left: 2px;
-    margin-right: 2px;
-}
-.alt-msignup{
+    .form .button{
+        font-size: 10px;
+        padding: 5px 45px;
+    }
+    hr{
+    width: 35px;
+    margin: 5px;
+    }
+    .alt-msignup{
     align-items: center;
     justify-self: center;
     display: flex;
     padding: 15px 0;
-}
+    }
+    alt{
+        font-size: 10px;
+    }
 }
